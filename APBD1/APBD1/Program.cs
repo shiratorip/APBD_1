@@ -19,3 +19,13 @@ static double CountAverage(int[] Arr)
     }
     return avg;
 }
+
+static double CountMax(int[] Arr)
+{
+    double max = Arr[0];
+    for (int i = 0; i < Arr.Length; i++)
+    {
+        max = Math.Max(max, Arr[i]);
+    }
+    return max;
+}
