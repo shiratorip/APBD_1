@@ -22,10 +22,10 @@ static double CountAverage(int[] Arr)
 
 static double CountMax(int[] Arr)
 {
-    double max_value = Arr[0];
+    double max_val = Arr[0];
     for (int i = 0; i < Arr.Length; i++)
     {
-        max_value = Math.Max(max_value, Arr[i]);
+        max_val = Math.Max(max_val, Arr[i]);
     }
-    return max_value;
+    return max_val;
 }
